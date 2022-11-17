@@ -1,0 +1,744 @@
+/* font-family: 'Roboto Slab', serif; 
+font-family: 'Open Sans', sans-serif; */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1365px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+  
+}
+
+/*========================== top bar section==================================== */
+
+.topbar-section {
+    background-color: #eee;
+    padding: 13px 0 13px 0;
+}
+.topbar-section .heder-parrents {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.topbar-section .heder-parrents .topbar-one {
+    width: 33%;
+}
+.topbar-section .heder-parrents .topbar-one p,
+.topbar-section .heder-parrents .topbar-two p {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    font-weight: 400;
+}
+.topbar-section .heder-parrents .topbar-two p span {
+    margin-right: 5px;
+}
+
+.topbar-section .heder-parrents .topbar-two {
+    width: 33%;
+    text-align: center;
+}
+.topbar-section .heder-parrents .topbar-three {
+    width: 33%;
+}
+.topbar-section .heder-parrents .topbar-three .icons-three ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: end;
+}
+.topbar-section .heder-parrents .topbar-three .icons-three ul li {
+    margin-left: 18px;
+}
+.topbar-section .heder-parrents .topbar-three .icons-three ul li i {
+    color: #000;
+}
+.topbar-section .heder-parrents .topbar-three .icons-three ul li i:hover {
+    background: blue;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+/* ================================== heder-section=========================== */
+.heder-section {
+    padding: 15px 0 15px 0;
+}
+.heder-section .topbar-parrents {
+    display: flex;   
+    align-items: center;
+}
+.heder-section .topbar-parrents .heder-one,
+.heder-section .topbar-parrents .heder-two,
+.heder-section .topbar-parrents .heder-three {
+    width: 33%;
+}
+.heder-section .topbar-parrents .heder-one h5,
+.heder-section .topbar-parrents .heder-three h5 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    line-height: 30px;
+    color: #000;
+}
+.heder-section .topbar-parrents .heder-three h5 a {
+    color: red;
+    text-decoration: none;
+}
+
+.heder-section .topbar-parrents .heder-one p,
+.heder-section .topbar-parrents .heder-three p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    line-height: 24px;
+    color: #000;
+}
+.heder-section .topbar-parrents .heder-three p a {
+    text-decoration: none;
+    color: #000;
+}
+.heder-section .topbar-parrents .heder-three {
+    text-align: right;
+}
+.heder-section .topbar-parrents .heder-two {
+    text-align: center;
+}
+
+/*==================================== Nab bar======================================== */
+.nav-bar-section{
+    background-color:black ;
+}
+
+.nav-bar-section .nav-bar-pareants ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-bar-section .nav-bar-pareants .nab-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 30px 25px 30px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.nav-bar-section .nav-bar-pareants ul li a:hover{
+    background: red;
+    color: #fff;
+}
+.nav-bar-section .nav-bar-pareants ul li:first-child{
+    background-color: red;
+}
+
+
+
+
+/*-------------------------- slice img section--------------------------------- */
+
+.img-section{
+    background-image: url(img/img-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 245px 0;
+}
+
+.img-section .img-text-pareants .text{
+    text-align: center;
+    background-color: #000;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 25px 0;
+    opacity: .7;
+    margin-top: 25px;
+}
+.img-section .img-text-pareants .text h2{
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.img-section .img-text-pareants .text p{
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400px;
+    color: #fff;
+}
+
+
+/* ------------------------------------Blog part one section----------------------------------- */
+.blog-section-one{
+    padding: 80px;
+}
+.blog-section-one .block-pareants {
+    display: flex;
+    align-items: center;
+    /* max-width: 80%; */
+}
+
+.blog-section-one .block-pareants .contant {
+    width: 60%;
+}
+.blog-section-one .block-pareants .contant .text-head h2{
+    font-size: 36px;
+    line-height: 38px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700px;
+    color:#000;
+    padding-bottom: 35px;
+    position: relative;
+}
+.blog-section-one .block-pareants .contant .text-head h2::before{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    background: red;
+    bottom: 13px;
+    left: 0;
+}
+.blog-section-one .block-pareants .contant .text-des {
+    position: relative;
+}
+.blog-section-one .block-pareants .contant .text-des::after{
+    content: "";
+    position:absolute;
+    height: 415px;
+    width: 415px;
+    background: url(img/logo-img.png);
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    }
+.blog-section-one .block-pareants .contant .text-des p{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    max-width: 96%;
+    padding-top: 20px;
+}
+.blog-section-one .block-pareants .contant .btn a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 30px;
+    display: inline-block;
+    color: #000;
+    text-transform: capitalize;
+}
+.blog-section-one .block-pareants .contant .btn a:hover{
+    background-color: red;
+    color: #fff;
+    border: 1px solid red;
+}
+
+.blog-section-one .block-pareants .blog-img{
+    width: 40%;
+}
+.blog-section-one .block-pareants .blog-img img{
+    width: 100%;
+}
+
+
+
+
+/*=============================== card section=========================== */
+.card-section{
+    background-color: #f9f9f9;
+    padding: 70px 0;
+}
+
+.card-section .card-text-border{
+    text-align: center;
+}
+.card-section .card-text-border .card-head h2{
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Roboto Slab', serif;
+    font-family: 700;
+    padding-bottom: 50px;
+    position: relative;
+}
+.card-section .card-text-border .card-head h2::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 90px;
+    background: red;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-section .card-text-border .card-pra p{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 400;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+
+.card-section .cards-pareants{
+    display: flex;
+    column-gap: 3%;
+}
+
+.card-section .cards-pareants .card-one,
+.card-section .cards-pareants .card-two,
+.card-section .cards-pareants .card-three{
+    width: 31%;
+    background:#fff;
+    text-align: center;
+    padding: 35px 25px;
+    box-shadow: 0px 6px 6px 4px gainsboro;
+}
+.card-section .cards-pareants .card-one .card-icon, 
+.card-section .cards-pareants .card-two .card-icon,
+.card-section .cards-pareants .card-three .card-icon {
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.card-section .cards-pareants .card-one .card-title h3, 
+.card-section .cards-pareants .card-two .card-title h3,
+.card-section .cards-pareants .card-three .card-title h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-family: 700;
+    padding: 15px;
+}
+.card-section .cards-pareants .card-one .card-des p,
+.card-section .cards-pareants .card-two .card-des p,
+.card-section .cards-pareants .card-three .card-des p{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 400;
+}
+
+.card-section .cards-pareants .card-one .card-btn a,
+.card-section .cards-pareants .card-two .card-btn a,
+.card-section .cards-pareants .card-three .card-btn a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Roboto Slab', serif;
+    font-family: 400;
+    color: #000;
+    border: 1px solid #000;
+    padding: 10px 12px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.card-section .cards-pareants .card-one .card-btn a:hover,
+.card-section .cards-pareants .card-two .card-btn a:hover,
+.card-section .cards-pareants .card-three .card-btn a:hover{
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+}
+
+.card-section .sceond-row{
+    margin-top: 40px;
+}
+
+
+
+
+/*=============================== video section================================= */
+
+ .video-section .video-pareents{
+    display: flex;
+    column-gap: 2%;
+    
+    
+}
+.video-section .video-pareents .video-img-1 img,
+.video-section .video-pareents .video-img-2 img,
+.video-section .video-pareents .video-img-3 img,
+.video-section .video-pareents .video-img-4 img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+ .video-section .video-text-contant{
+    text-align: center;
+    padding: 70px 0 40px 0;
+}
+
+.video-section .video-text-contant h3{
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px;
+    position: relative;
+}
+
+
+.video-section .video-text-contant h3::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 90px;
+    background: red;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.video-section .video-text-contant p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    padding: 15px;
+    
+}  
+
+/*========================= contact section ============================================ */
+
+    .contact-section{
+    margin-top: 72px;
+    background-image: url(img/contact-img.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 115px;
+    
+}
+.contact-section .text-btn{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-section .text-btn h3{
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+.contact-section .text-btn p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-top: 10px;
+}
+
+.contact-section .text-btn .contact-button{
+    padding: 50px;
+}
+.contact-section .text-btn .contact-button a{
+    font-size: 16px;
+    line-height: 22px;
+    font-family:'Roboto Slab', serif ;
+    font-weight: 400;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-section .text-btn .contact-button a:hover{
+    background-color: red;
+} 
+
+
+   /*===========================latest blog card=============================== */
+
+            
+.latest-blog-section{
+    background-color: #f9f9f9;
+    padding: 0px 0px 100px 0px;
+}
+.latest-blog-section .latest-blog-title{
+    text-align: center;
+    padding: 50px;
+}
+.latest-blog-section .latest-blog-title h2{
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    position: relative;
+}
+.latest-blog-section .latest-blog-title h2::before{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 90px;
+    background: red;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.latest-blog-section .latest-blog-pareants{
+    display: flex;
+    column-gap: 2%;
+    
+}
+.latest-blog-section .latest-blog-pareants .blog-card-one,
+.latest-blog-section .latest-blog-pareants .blog-card-two{
+    width: 49%;
+    /* box-shadow: 0px 0px 5px 6px gray; */
+   
+}
+
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-img-date img,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-img-date img{
+    width: 100%;
+    padding: 10px 10px;
+}
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-img-date img,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-img-date img{
+    position: relative;
+    object-fit: cover;
+}
+
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-img-date  .blog-date,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-img-date .blog-date  { 
+        position: absolute;
+        width: 95px;
+        height: 100px;
+        background: black;
+        margin-left: 30px;
+        transform: translateY(-115px);
+        padding: 20px 20px;
+}
+
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-img-date .blog-date h3,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-img-date .blog-date h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-family:'Roboto Slab', serif ;
+    font-weight: 700;
+    color: #eee;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-authour ul,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-authour ul{
+    display: flex;
+    column-gap: 40px;
+    margin-left: 10px;
+}
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-authour ul li,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-authour ul li{
+    list-style: none;
+}
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-authour ul li i,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-authour ul li i{
+    padding-right: 10px;
+}
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-authour ul li .tex-dec,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-authour ul li .tex-dec{
+    text-decoration: none;
+    color: #585858;
+}
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-authour ul li .tag,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-authour ul li .tag{
+    color: red;
+}
+
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-title h3,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-title h3{
+    font-size: 20px;
+    line-height: 26px;
+    font-family:'Roboto Slab', serif ;
+    font-weight: 700;
+    padding: 15px 10px;
+}
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-des p,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-des p{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 0 10px;
+    
+}
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-btn a,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-btn a{
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 22px;
+    font-family:'Roboto Slab', serif ;
+    font-weight: 400;
+    color: #000;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.latest-blog-section .latest-blog-pareants .blog-card-one .blog-btn a:hover,
+.latest-blog-section .latest-blog-pareants .blog-card-two .blog-btn a:hover{
+    border: 1px solid red;
+    background: red;
+    color: #fff;
+}
+
+
+
+
+
+
+
+/*========================================= footer======================================= */
+.footer-section {
+    background: #282628;
+}
+.footer-section .footer-pareants{
+    display: flex;
+    column-gap: 3%;
+    padding: 50px 0;
+}
+.footer-section .footer-pareants .about-us,
+.footer-section .footer-pareants .quick-link,
+.footer-section .footer-pareants .get-in-tuoch{
+    width: 31%;
+}
+.footer-section .footer-pareants .about-us .about-head h5,
+.footer-section .footer-pareants .quick-link .quick-head h5,
+.footer-section .footer-pareants .get-in-tuoch .get-in-head h5{
+    font-size: 24px;
+    line-height: 28px;
+    font-family:'Roboto Slab', serif ;
+    font-weight: 700;
+    color: #ffffff;
+}
+.footer-section .footer-pareants .about-des p{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #5e5d5e;
+    margin-top: 18px; ;
+}
+.footer-section .footer-pareants .about-social ul{
+    display: flex;
+}
+.footer-section .footer-pareants .about-social ul li {
+    list-style: none;
+    margin: 25px 5px;
+}
+.footer-section .footer-pareants .about-social ul li a{
+    border: 1px solid  #5e5d5e;
+    padding: 10px 10px;
+    display: inline-block;
+   color: #5e5d5e;
+}
+.footer-section .footer-pareants .about-social ul li a:hover{
+    background: #ffffff;
+    color: red;
+}
+
+
+.footer-section .footer-pareants .quick-link .quick-link-list ul li{
+    list-style: none;
+    margin-top: 15px;
+    border-bottom: 1px dotted #5e5d5e;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #5e5d5e;
+    padding-bottom: 5px;
+    
+}
+.footer-section .footer-pareants .quick-link .quick-link-list ul li:hover{
+    color: #eee;
+    cursor: pointer;
+}
+
+.footer-section .footer-pareants .location p ,
+.footer-section .footer-pareants .call p ,
+.footer-section .footer-pareants .mail p {
+    padding: 10px 0;
+}
+.footer-section .footer-pareants .location p a span,
+.footer-section .footer-pareants .call p a span,
+.footer-section .footer-pareants .mail p a span{
+    margin-right: 10px;
+}
+.footer-section .footer-pareants .get-in-tuoch .location p a,
+.footer-section .footer-pareants .get-in-tuoch .call p a,
+.footer-section .footer-pareants .get-in-tuoch .mail p a{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #5e5d5e;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+
+
+
+
+/*===================== last footer======================= */
+
+ .last-footer-section{
+    background-color: #141314;
+}
+.last-footer-section .text-content{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+.last-footer-section .text-content .text-one h4,
+.last-footer-section .text-content .text-two h4{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    
+}
+
+.last-footer-section .text-content .text-one h4 i{
+    margin-right: 3px;
+}
+.last-footer-section .text-content .border{
+    border-left: 1px solid #ffffff;
+    margin: 0 10px;
+} 
